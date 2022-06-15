@@ -30,7 +30,7 @@ public:
 
 private:
 	FHttpModule* Http;
-	const FString APIBaseURL = "https://api.ambeedata.com";
-	const FString GetWeatherURL = "https://api.ambeedata.com/weather/latest/by-lat-lng?lat=%f&lng=%f";
+	
+	const FString GetWeatherURL = "https://api.ambeedata.com/weather/latest/by-lat-lng?lat=%s&lng=%s";
 	const FString WeatherIconsBaseURL = "https://assetambee.s3-us-west-2.amazonaws.com/weatherIcons/PNG/%s.png";
 };
